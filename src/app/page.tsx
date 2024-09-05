@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 export default function Home() {
   return (
     <div>
-      <div></div>
+      <div className="h-screen w-screen bg-secondary mt-10"></div>
     </div>
   );
 }
