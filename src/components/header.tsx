@@ -21,7 +21,7 @@ const kaiseiDecol = Kaisei_Decol({
 
 export default function Header() {
   return (
-    <header className="bg-accent h-20 shadow shadow-primary">
+    <header className="bg-primary/10 h-20 shadow shadow-primary">
       <nav className="container flex justify-between items-center gap-4 w-full h-full">
         <span
           className={cn(
