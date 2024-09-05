@@ -8,6 +8,16 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: '1rem',
+        sm: '2.5rem',
+        lg: '4rem',
+        xl: '5.5rem',
+        '2xl': '7rem',
+      },
+    },
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -30,10 +40,10 @@ const config: Config = {
           DEFAULT: "hsl(var(--popover))",
           foreground: "hsl(var(--popover-foreground))",
         },
-        button: {
-          DEFAULT: "hsl(var(--button))",
-          foreground: "hsl(var(--button-foreground))",
-        },
+        // button: {
+        //   DEFAULT: "hsl(var(--button))",
+        //   foreground: "hsl(var(--button-foreground))",
+        // },
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
